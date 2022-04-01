@@ -1,0 +1,39 @@
+.main{
+  padding: 18px 40px;
+}
+.card{
+  display: flex;
+  gap: 20px;
+}
+.card-image{
+  width: 125px;
+  height: 168px;
+  border-radius: 5px;
+}
+.info{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.title{
+  font-size: 25px;
+}
+.date{
+  font-size: 10.24px;
+}
+.location{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 10.24px;
+}
+.location-text{
+  letter-spacing: 0.17em;
+}
+.location-link, .location-link:visited{
+  color: #918E9B;
+}
+.description{
+  font-weight: 400;
+  font-size: 10.24px;
+}
