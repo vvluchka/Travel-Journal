@@ -4,6 +4,7 @@
   height: 55px;
   background-color: #F55A5A;
   margin-bottom: 27px;
+  width: inherit;
 }
 .home-link{
   display: flex;
@@ -11,6 +12,8 @@
   gap: 7px;
   align-items: center;
   text-decoration: none;
+  max-width: 200px;
+  
 }
 .nav-text{
   color: white;
