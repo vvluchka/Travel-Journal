@@ -1,5 +1,13 @@
 .main{
   padding: 18px 40px;
+  transition: 0.7s;
+  background-color: white;
+}
+.main:hover{
+  transform: scale(1.1);
+  transition: 0.4s;
+  border-radius: 10px;
+  box-shadow: 0 0 30px 0.5px;
 }
 .card{
   display: flex;
